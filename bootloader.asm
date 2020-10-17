@@ -8,7 +8,7 @@ mov sp, bp
 
 call ReadDisk
 
-jmp $
+jmp PROGRAM_SPACE
 
 %include "Print.asm"
 %include "DiskRead.asm"
