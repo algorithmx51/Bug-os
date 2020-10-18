@@ -34,9 +34,6 @@ StartProtectedMode:
 	mov fs, ax
 	mov gs, ax
 
-	mov bp , 0x9000 ; Set the stack.
-	mov sp , bp
-
 	call DetectCPUID
 	call DetectLongMode
 	call SetupIdentityPaging
