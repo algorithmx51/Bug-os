@@ -12,6 +12,6 @@ PrintString:
 		jmp .Loop
 	.Exit:
 	
-	pop ax
 	pop bx
+	pop ax
 	ret
