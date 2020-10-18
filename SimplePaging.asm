@@ -7,7 +7,7 @@ SetupIdentityPaging:
 	mov dword [edi], 0x2003
 	add edi, 0x1000
 	mov dword [edi], 0x3003
-	add edi, 0x3003
+	add edi, 0x1000
 	mov dword [edi], 0x4003
 	add edi, 0x1000
 

@@ -10,6 +10,8 @@ call ReadDisk
 
 jmp PROGRAM_SPACE
 
+jmp $
+
 %include "Print.asm"
 %include "DiskRead.asm"
 

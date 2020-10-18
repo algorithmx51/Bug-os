@@ -13,8 +13,6 @@ ReadDisk:
   
 	int 0x13
   
-	jc DiskReadFailed
-  
 	ret
   
 BOOT_DISK:
